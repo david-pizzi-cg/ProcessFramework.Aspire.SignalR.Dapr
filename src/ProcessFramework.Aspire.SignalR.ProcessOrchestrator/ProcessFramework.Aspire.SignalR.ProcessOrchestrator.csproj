@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>
+      $(NoWarn);CS8618,IDE0009,CA1051,CA1050,CA1707,CA1054,CA2007,VSTHRD111,CS1591,RCS1110,RCS1243,CA5394,SKEXP0001,SKEXP0010,SKEXP0020,SKEXP0040,SKEXP0050,SKEXP0060,SKEXP0070,SKEXP0080,SKEXP0101,SKEXP0110,OPENAI001
+    </NoWarn>
+    <UserSecretsId>1eabeb65-7d10-4601-803b-ac956e47a552</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapr.Actors" Version="1.15.3" />
+    <PackageReference Include="Dapr.Actors.AspNetCore" Version="1.15.3" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.3" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" Version="1.45.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Process.Core" Version="1.46.0-alpha" />
+    <PackageReference Include="Microsoft.SemanticKernel.Process.Runtime.Dapr" Version="1.46.0-alpha" />
+    <PackageReference Include="Aspire.Azure.AI.OpenAI" Version="9.0.0-preview.5.24551.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProcessFramework.Aspire.SignalR.ServiceDefaults\ProcessFramework.Aspire.SignalR.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

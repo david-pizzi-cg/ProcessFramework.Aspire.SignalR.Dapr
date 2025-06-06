@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.2.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>61efcc24-41eb-4a92-8ebe-64de14ed54dd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.0" />
+    <PackageReference Include="Aspire.Hosting.Azure.CognitiveServices" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="9.2.0" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="9.3.0" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.NodeJS.Extensions" Version="9.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProcessFramework.Aspire.SignalR.ProcessOrchestrator\ProcessFramework.Aspire.SignalR.ProcessOrchestrator.csproj" />
+  </ItemGroup>
+
+</Project>

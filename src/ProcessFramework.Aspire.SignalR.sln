@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessFramework.Aspire.SignalR.AppHost", "ProcessFramework.Aspire.SignalR.AppHost\ProcessFramework.Aspire.SignalR.AppHost.csproj", "{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessFramework.Aspire.SignalR.ServiceDefaults", "ProcessFramework.Aspire.SignalR.ServiceDefaults\ProcessFramework.Aspire.SignalR.ServiceDefaults.csproj", "{903A0677-B4F0-418E-A2FE-16E31473A5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessFramework.Aspire.SignalR.ProcessOrchestrator", "ProcessFramework.Aspire.SignalR.ProcessOrchestrator\ProcessFramework.Aspire.SignalR.ProcessOrchestrator.csproj", "{5410A3B2-7E39-4D43-92D4-C96A4542A105}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ProcessFramework.Aspire.SignalR.ReactFrontend", "ProcessFramework.Aspire.SignalR.ReactFrontend\", "{669C5615-414D-AF8D-D01C-68678628494C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49912"
+		Debug.AspNetCompiler.PhysicalPath = "ProcessFramework.Aspire.SignalR.ReactFrontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49912\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49912"
+		Release.AspNetCompiler.PhysicalPath = "ProcessFramework.Aspire.SignalR.ReactFrontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49912\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49912"
+		SlnRelativePath = "ProcessFramework.Aspire.SignalR.ReactFrontend\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|x64.Build.0 = Release|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{1FB70B08-D2C5-40ED-818A-5D2F31E521D9}.Release|x86.Build.0 = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|x64.Build.0 = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Debug|x86.Build.0 = Debug|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|x64.ActiveCfg = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|x64.Build.0 = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|x86.ActiveCfg = Release|Any CPU
+		{903A0677-B4F0-418E-A2FE-16E31473A5B5}.Release|x86.Build.0 = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|x64.Build.0 = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Debug|x86.Build.0 = Debug|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|x64.ActiveCfg = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|x64.Build.0 = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|x86.ActiveCfg = Release|Any CPU
+		{5410A3B2-7E39-4D43-92D4-C96A4542A105}.Release|x86.Build.0 = Release|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|x64.Build.0 = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Debug|x86.Build.0 = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|x64.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|x64.Build.0 = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|x86.ActiveCfg = Debug|Any CPU
+		{669C5615-414D-AF8D-D01C-68678628494C}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DF9F6C-5729-4251-B34A-3FFFA8E45AE1}
+	EndGlobalSection
+EndGlobal
